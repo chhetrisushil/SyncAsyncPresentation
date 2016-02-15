@@ -1,0 +1,22 @@
+Promise Presentation:
+
+Topics:
+    1. Callbacks
+       Problems with Callback:
+            1. Can't use return statement
+            2. Can't throw an error or catch an error
+            3. No stack: as a new stack is created for callback to execute the old stack is discarded
+
+            SIDE NOTE: A function can do 3 things (from a functional programming perspective) and those are:
+             a. Return
+             b. Throw
+             c. Side effects (change the data or send different set of values back)
+    2. ES6 Generators
+       Benefits:
+        1. First-class coroutines
+        2. suspend execution context
+        3. small api
+       Problem:
+        1. Not avialable yet
+    3. Promises
+    4. Async/Await
