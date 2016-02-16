@@ -58,6 +58,35 @@ Example:
 
 -----------------------------------
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /$$$$$$$$             /$$                                /$$$$$$            /$$ /$$ /$$                           /$$
+| $$_____/            | $$                               /$$__  $$          | $$| $$| $$                          | $$
+| $$       /$$$$$$$  /$$$$$$    /$$$$$$   /$$$$$$       | $$  \\__/  /$$$$$$ | $$| $$| $$$$$$$   /$$$$$$   /$$$$$$$| $$   /$$  /$$$$$$$
+| $$$$$   | $$__  $$|_  $$_/   /$$__  $$ /$$__  $$      | $$       |____  $$| $$| $$| $$__  $$ |____  $$ /$$_____/| $$  /$$/ /$$_____/
+| $$__/   | $$  \\ $$  | $$    | $$$$$$$$| $$  \\__/      | $$        /$$$$$$$| $$| $$| $$  \\ $$  /$$$$$$$| $$      | $$$$$$/ |  $$$$$$ 
+| $$      | $$  | $$  | $$ /$$| $$_____/| $$            | $$    $$ /$$__  $$| $$| $$| $$  | $$ /$$__  $$| $$      | $$_  $$  \\____  $$
+| $$$$$$$$| $$  | $$  |  $$$$/|  $$$$$$$| $$            |  $$$$$$/|  $$$$$$$| $$| $$| $$$$$$$/|  $$$$$$$|  $$$$$$$| $$ \\  $$ /$$$$$$$/
+|________/|__/  |__/   \\___/   \\_______/|__/             \\______/  \\_______/|__/|__/|_______/  \\_______/ \\_______/|__/  \\__/|_______/
+
+-----------------------------------
+
 -> Enter callbacks <-
 ========
 
@@ -149,7 +178,7 @@ Example
     * Code readability
         * Due to the indentation and level of callbacks it becomes really difficult to keep track of the callback level
     * Code Maintainence
-        * Due to the multi level callbacks move code around of changing based on requirements is difficult
+        * Due to the multi level callbacks moving code around or changing based on requirements is difficult
     * Debugging
         * As we don't get a proper call stack it sometimes becomes really difficult to debug the code
         * Due to the multi level callbacks we need multiple error handling
@@ -163,6 +192,34 @@ Example
     * Generators - Part of ES6 Specification
     * Promise
     * Async/Await - Part of ES7 Specification
+
+-----------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\                       /$$$$$$                                                     /$$
+\                      /$$__  $$                                                   | $$
+\                     | $$  \\__/  /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$  /$$$$$$  /$$$$$$    /$$$$$$   /$$$$$$   /$$$$$$$
+\                     | $$ /$$$$ /$$__  $$| $$__  $$ /$$__  $$ /$$__  $$|____  $$|_  $$_/   /$$__  $$ /$$__  $$ /$$_____/
+\                     | $$|_  $$| $$$$$$$$| $$  \\ $$| $$$$$$$$| $$  \\__/ /$$$$$$$  | $$    | $$  \\ $$| $$  \\__/|  $$$$$$
+\                     | $$  \\ $$| $$_____/| $$  | $$| $$_____/| $$      /$$__  $$  | $$ /$$| $$  | $$| $$       \\____  $$
+\                     |  $$$$$$/|  $$$$$$$| $$  | $$|  $$$$$$$| $$     |  $$$$$$$  |  $$$$/|  $$$$$$/| $$       /$$$$$$$/
+\                      \\______/  \\_______/|__/  |__/ \\_______/|__/      \\_______/   \\___/   \\______/ |__/      |_______/
 
 -----------------------------------
 
@@ -259,6 +316,33 @@ Example
 
 ^
 > Note: Generator comes with one more special api ` yield* ` to handle array of data. e.g. ` yield* ['a', 'b'] `
+
+-----------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\                                       /$$$$$$$                                   /$$
+\                                      | $$__  $$                                 |__/
+\                                      | $$  \\ $$ /$$$$$$   /$$$$$$  /$$$$$$/$$$$  /$$  /$$$$$$$  /$$$$$$
+\                                      | $$$$$$$//$$__  $$ /$$__  $$| $$_  $$_  $$| $$ /$$_____/ /$$__  $$
+\                                      | $$____/| $$  \\__/| $$  \\ $$| $$ \\ $$ \\ $$| $$|  $$$$$$ | $$$$$$$$
+\                                      | $$     | $$      | $$  | $$| $$ | $$ | $$| $$ \\____  $$| $$_____/
+\                                      | $$     | $$      |  $$$$$$/| $$ | $$ | $$| $$ /$$$$$$$/|  $$$$$$$
+\                                      |__/     |__/       \\______/ |__/ |__/ |__/|__/|_______/  \\_______/
 
 --------------------------------
 
@@ -481,7 +565,7 @@ Example
 
 ^
 ## Promise Behaviours
-    * Based on the knowledge we just gather we can conclude that Promises have some tricky behaviour
+    * Based on the knowledge we just gathered we can conclude that Promises have some tricky behaviour
     * It's essential we be very careful while using promise
     * Let's try to contemplate the behavior of the code examples in the next slide based on the idea we just gathered
 
@@ -596,6 +680,34 @@ doSomething
 > References:
 >    1. [We have a problem with promises](http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)
 >    2. To see the above example in action goto [http://jsbin.com/tuqukakawo/1/edit?js,console,output](http://jsbin.com/tuqukakawo/1/edit?js,console,output)
+
+--------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\                 /$$$$$$                                                /$$ /$$$$$$                          /$$   /$$
+\                /$$__  $$                                              /$$//$$__  $$                        |__/  | $$
+\               | $$  \\ $$  /$$$$$$$ /$$   /$$ /$$$$$$$   /$$$$$$$     /$$/| $$  \\ $$ /$$  /$$  /$$  /$$$$$$  /$$ /$$$$$$
+\               | $$$$$$$$ /$$_____/| $$  | $$| $$__  $$ /$$_____/    /$$/ | $$$$$$$$| $$ | $$ | $$ |____  $$| $$|_  $$_/
+\               | $$__  $$|  $$$$$$ | $$  | $$| $$  \\ $$| $$         /$$/  | $$__  $$| $$ | $$ | $$  /$$$$$$$| $$  | $$
+\               | $$  | $$ \\____  $$| $$  | $$| $$  | $$| $$        /$$/   | $$  | $$| $$ | $$ | $$ /$$__  $$| $$  | $$ /$$
+\               | $$  | $$ /$$$$$$$/|  $$$$$$$| $$  | $$|  $$$$$$$ /$$/    | $$  | $$|  $$$$$/$$$$/|  $$$$$$$| $$  |  $$$$/
+\               |__/  |__/|_______/  \\____  $$|__/  |__/ \\_______/|__/     |__/  |__/ \\_____/\\___/  \\_______/|__/   \\___/
+\                                    /$$  | $$
+\                                   |  $$$$$$/
+\                                    \\______/
 
 --------------------------------
 
