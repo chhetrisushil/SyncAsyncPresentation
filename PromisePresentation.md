@@ -10,7 +10,7 @@
     * Values exepected in previous statement of the code is accessible in the nextline
     * Error can be thrown in the code block
     * The function can have a return statement
-    * We havea callstack in which the code is executing
+    * We have a callstack in which the code is executing
 
 
 ^
